@@ -1,3 +1,4 @@
+import './index.scss'
 import { FC } from 'react';
 import Counter from './components/Counter';
 

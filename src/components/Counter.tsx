@@ -10,8 +10,8 @@ const Counter: FC = () => {
 
   return (
     <div>
-      <h1>{count}</h1>
-      <button className={classes.test} onClick={increment}>increment</button>
+      <h1 className={classes.red}>{count}</h1>
+      <button className={classes.btn} onClick={increment}>increment</button>
     </div>
   );
 };
